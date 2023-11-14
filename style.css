@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FFD900;
+    padding: 30px 50px;
+}
+
+main {
+    display: grid;
+    grid-auto-flow: column;
+}
