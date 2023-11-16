@@ -117,11 +117,12 @@ footer div:nth-child(2) button {
 }
 
 footer div:nth-child(2) button:hover {
-    box-shadow: 0px 5px 20px #00000077;
+    box-shadow: 5px 8px 10px #00000077;
     color: #514988;
-    background-color: #fff;
+    background-color: #F3C61F;
 }
 
 footer div:nth-child(2) button:active {
+    box-shadow: 0px 0px 10px #00000077;
     transform: scale(96%);
 }
