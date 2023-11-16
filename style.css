@@ -17,7 +17,7 @@ header img {
 main {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 50vw;
+    grid-auto-columns: 50%;
 }
 
 main section:nth-child(1) {
@@ -71,4 +71,57 @@ main section:nth-child(2) {
 
 main section:nth-child(2) video {
     width: 97%;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+footer div:nth-child(1) div {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div h4 {
+    color: #F3C61F;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+footer div div img {
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+footer div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div:nth-child(2) button {
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #514988;
+    padding: 34px 90px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+footer div:nth-child(2) button:hover {
+    box-shadow: 0px 5px 20px #00000077;
+    color: #514988;
+    background-color: #fff;
+}
+
+footer div:nth-child(2) button:active {
+    transform: scale(96%);
 }
