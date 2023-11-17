@@ -126,3 +126,163 @@ footer div:nth-child(2) button:active {
     box-shadow: 0px 0px 10px #00000077;
     transform: scale(96%);
 }
+
+@media (max-width: 1250px) {
+    main section:nth-child(1) h1,
+    main section:nth-child(2) div div {
+        font-size: 44px;
+    }
+    
+    main section:nth-child(1) h2 {
+        font-size: 20px;
+    }
+    
+    main section:nth-child(1) p {
+        font-size: 16px;
+    }
+    
+    main section:nth-child(2) h3 {
+        font-size: 20px;
+    }
+
+    footer div h4 {
+        font-size: 20px;
+    }
+
+    footer div:nth-child(2) button {
+        font-size: 28px;
+        padding: 30px 60px;
+    }
+    
+}
+
+@media (max-width: 1020px) {
+    main section:nth-child(1) h1,
+    main section:nth-child(2) div div {
+        font-size: 32px;
+    }
+    
+    main section:nth-child(1) h2,
+    main section:nth-child(1) p,
+    main section:nth-child(2) h3 {
+        font-size: 16px;
+    }
+
+    footer div h4 {
+        font-size: 16px;
+    }
+
+    footer div div img {
+        width: 120px;
+    }    
+
+    footer div:nth-child(2) button {
+        font-size: 24px;
+        padding: 24px 40px;
+    } 
+}
+
+@media (max-width: 820px) {
+    main,
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section:nth-child(1) h1,
+    main section:nth-child(2) div div {
+        font-size: 50px;
+    }
+    
+    main section:nth-child(1) h2,
+    main section:nth-child(1) p,
+    main section:nth-child(2) h3 {
+        font-size: 24px;
+    }
+
+    footer div h4 {
+        font-size: 20px;
+        padding: 16px 0;
+    }
+
+    footer div div img {
+        width: 150px;
+    }    
+
+    footer div:nth-child(2) button {
+        font-size: 40px;
+        padding: 24px 48px;
+        margin: 20px 0 60px 0;
+    } 
+}
+
+@media (max-width: 650px) {  
+    main section:nth-child(1) h1,
+    main section:nth-child(2) div div {
+        font-size: 40px;
+    }
+    
+    main section:nth-child(1) h2,
+    main section:nth-child(1) p,
+    main section:nth-child(2) h3 {
+        font-size: 16px;
+    }
+
+    footer div h4 {
+        font-size: 16px;
+        padding: 14px 5px;
+    }
+
+    footer div div img {
+        width: 120px;
+    }    
+
+    footer div:nth-child(2) button {
+        font-size: 32px;
+        padding: 24px 48px;
+        margin: 20px 0 60px 0;
+    } 
+}
+
+@media (max-width: 550px) {  
+    main section:nth-child(1) h1,
+    main section:nth-child(2) div div {
+        font-size: 32px;
+    }
+    
+    main section:nth-child(1) h2,
+    main section:nth-child(1) p,
+    main section:nth-child(2) h3 {
+        font-size: 16px;
+    }
+
+    footer div h4 {
+        font-size: 14px;
+    }
+
+    footer div div img {
+        width: 100px;
+    } 
+}
+
+@media (max-width: 400px) {  
+    main section:nth-child(1) h2,
+    main section:nth-child(1) p,
+    main section:nth-child(2) h3 {
+        font-size: 14px;
+    }
+
+    footer div h4 {
+        padding: 14px 5px;
+    }
+
+    footer div div img {
+        width: 90px;
+    }  
+
+    footer div:nth-child(2) button {
+        font-size: 26px;
+        padding: 24px 48px;
+        margin: 20px 0 60px 0;
+    }
+}
